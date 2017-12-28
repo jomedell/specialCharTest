@@ -1,25 +1,32 @@
 //
-//  ViewController.swift
+//  MSEventsVC.swift
 //  VSAC
 //
 //  Created by Jorge Medellin on 12/28/17.
 //  Copyright © 2017 Microsoft. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class MSEvents: UIViewController {
+    
+    // MARK: Properties
+    
+    @IBOutlet weak var eventLabel: UILabel!
+    @IBOutlet weak var eventButton: UIButton!
+    
+    // MARK: Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
-
+    
+    // MARK Actions
 }
-
