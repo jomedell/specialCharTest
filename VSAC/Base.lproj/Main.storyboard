@@ -28,10 +28,10 @@
             </objects>
             <point key="canvasLocation" x="-46" y="167"/>
         </scene>
-        <!--Item-->
+        <!--MSEventsVC-->
         <scene sceneID="DbB-Sb-V7u">
             <objects>
-                <viewController id="lEu-uQ-bpu" customClass="MSEvents" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MSEventsVC" id="lEu-uQ-bpu" customClass="MSEvents" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wGr-Q4-nvE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ykk-z4-U87"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7u3-tr-hk7"/>
+                    <tabBarItem key="tabBarItem" title="Events" id="7u3-tr-hk7"/>
                     <connections>
                         <outlet property="eventButton" destination="kTb-KN-db8" id="1PK-FM-R1F"/>
                         <outlet property="eventLabel" destination="lqN-AM-AYi" id="D4G-Xg-ToH"/>
@@ -66,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="817" y="-90"/>
         </scene>
-        <!--Item-->
+        <!--MSCrashesVC-->
         <scene sceneID="mDw-2E-CMv">
             <objects>
-                <viewController id="cC6-ne-byt" customClass="MSCrashes" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MSCrashesVC" id="cC6-ne-byt" customClass="MSCrashes" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="giN-DV-850">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TvI-Ah-av1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Xx3-xH-Eo8"/>
+                    <tabBarItem key="tabBarItem" title="Crashes" id="Xx3-xH-Eo8"/>
                     <connections>
                         <outlet property="crashButton" destination="3E1-Mb-aaA" id="tui-bq-bWQ"/>
                         <outlet property="crashLabel" destination="868-v4-wKM" id="35O-ao-xj6"/>
