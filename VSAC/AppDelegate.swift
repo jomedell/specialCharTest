@@ -20,11 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         // App Center
+        MSAppCenter.setLogLevel(.verbose)
+        
         MSAppCenter.start("02513c89-2747-4239-92e9-201930207450", withServices:[
             MSAnalytics.self,
             MSCrashes.self
             ])
-        MSAppCenter.setLogLevel(.verbose)
         
         return true
     }
