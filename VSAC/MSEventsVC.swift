@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import AppCenterAnalytics
 
-class MSEvents: UIViewController {
+class MSEventsVC: UIViewController {
     
     // MARK: Properties
     
@@ -29,4 +30,9 @@ class MSEvents: UIViewController {
     }
     
     // MARK Actions
+    
+    @IBAction func eventsButtonPressed(_ sender: UIButton) {
+        
+        MSAnalytics.trackEvent("Custom event button pressed")
+    }
 }

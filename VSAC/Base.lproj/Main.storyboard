@@ -31,7 +31,7 @@
         <!--MSEventsVC-->
         <scene sceneID="DbB-Sb-V7u">
             <objects>
-                <viewController title="MSEventsVC" id="lEu-uQ-bpu" customClass="MSEvents" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MSEventsVC" id="lEu-uQ-bpu" customClass="MSEventsVC" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wGr-Q4-nvE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,6 +45,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTb-KN-db8">
                                 <rect key="frame" x="164" y="121" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="eventsButtonPressed:" destination="lEu-uQ-bpu" eventType="touchUpInside" id="Cw1-5Y-GJY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -69,7 +72,7 @@
         <!--MSCrashesVC-->
         <scene sceneID="mDw-2E-CMv">
             <objects>
-                <viewController title="MSCrashesVC" id="cC6-ne-byt" customClass="MSCrashes" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="MSCrashesVC" id="cC6-ne-byt" customClass="MSCrashesVC" customModule="VSAC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="giN-DV-850">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,6 +86,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E1-Mb-aaA">
                                 <rect key="frame" x="164" y="127" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="crashesButtonPressed:" destination="cC6-ne-byt" eventType="touchUpInside" id="UkS-a6-NMh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

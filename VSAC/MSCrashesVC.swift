@@ -1,5 +1,5 @@
 //
-//  MSCrashes.swift
+//  MSCrashesVC.swift
 //  VSAC
 //
 //  Created by Jorge Medellin on 12/28/17.
@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import AppCenterCrashes
 
-class MSCrashes: UIViewController {
+class MSCrashesVC: UIViewController {
     
     // MARK: Properties
     
@@ -29,4 +30,8 @@ class MSCrashes: UIViewController {
     }
     
     // MARK Actions
+    
+    @IBAction func crashesButtonPressed(_ sender: UIButton) {
+        MSCrashes.generateTestCrash()
+    }
 }
