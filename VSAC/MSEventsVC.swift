@@ -8,7 +8,9 @@
 
 import Foundation
 import UIKit
+import AppCenter
 import AppCenterAnalytics
+import AppCenterPush
 
 class MSEventsVC: UIViewController {
     
@@ -21,6 +23,15 @@ class MSEventsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // TODO: move to MSPushVC
+        var installId = MSAppCenter.installId()
+        print("PUSH - InstallID: \(installId?.description)")
+        
+        var customProperties = MSCustomProperties()
+        customProperties.setString("Black", forKey: "Color")
+        customProperties.setNumber(10, forKey: "Number")
+        MSAppCenter.setCustomProperties(customProperties)
         
     }
     
