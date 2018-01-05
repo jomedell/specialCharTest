@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // App Center
         MSAppCenter.setLogLevel(.verbose)
         
-        MSAppCenter.start("02513c89-2747-4239-92e9-201930207450", withServices:[
+        MSAppCenter.start("a13bed42-d505-4f08-acab-aefd176d0805", withServices:[
             MSAnalytics.self,
             MSCrashes.self,
             MSPush.self
