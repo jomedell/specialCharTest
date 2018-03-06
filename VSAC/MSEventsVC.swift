@@ -25,10 +25,10 @@ class MSEventsVC: UIViewController {
         super.viewDidLoad()
         
         // TODO: move to MSPushVC
-        var installId = MSAppCenter.installId()
-        print("PUSH - InstallID: \(installId?.description)")
+        let installId = MSAppCenter.installId()
+        print("PUSH - InstallID: \(installId?.description ?? "none")")
         
-        var customProperties = MSCustomProperties()
+        let customProperties = MSCustomProperties()
         customProperties.setString("Black", forKey: "Color")
         customProperties.setNumber(10, forKey: "Number")
         MSAppCenter.setCustomProperties(customProperties)
