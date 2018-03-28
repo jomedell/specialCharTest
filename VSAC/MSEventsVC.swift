@@ -28,6 +28,7 @@ class MSEventsVC: UIViewController {
         let installId = MSAppCenter.installId()
         print("PUSH - InstallID: \(installId?.description ?? "none")")
         
+        
         let customProperties = MSCustomProperties()
         customProperties.setString("Black", forKey: "Color")
         customProperties.setNumber(10, forKey: "Number")
