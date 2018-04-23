@@ -63,6 +63,7 @@
 		587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSCrashesVC.swift; sourceTree = "<group>"; };
 		589179DF1FFBF9A400DE3493 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
+		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
 		6213534D737E9B05B3F447D2 /* Pods-VSAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAC/Pods-VSAC.release.xcconfig"; sourceTree = "<group>"; };
 		D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 		587FE26F1FF58E1800B127B3 = {
 			isa = PBXGroup;
 			children = (
+				58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */,
 				5848DB681FF5B16100C99BF8 /* README.md */,
 				589179DF1FFBF9A400DE3493 /* .gitignore */,
 				587FE27A1FF58E1800B127B3 /* VSAC */,
