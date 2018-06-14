@@ -14,6 +14,9 @@ target 'VSAC' do
   target 'VSACUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'AppCenterXCUITestExtensions'
   end
 
 end
+
+
