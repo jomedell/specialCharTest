@@ -12,7 +12,7 @@ testSeries="ScriptTest"
 
 npm install -g appcenter-cli
 
-$xcrun xcodebuild build-for-testing \
+xcrun xcodebuild build-for-testing \
 -configuration Debug \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
