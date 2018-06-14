@@ -17,6 +17,7 @@
 		587FE2AA1FF5A60600B127B3 /* MSEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */; };
 		587FE2AC1FF5A61500B127B3 /* MSCrashesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */; };
 		589179E01FFBF9A400DE3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 589179DF1FFBF9A400DE3493 /* .gitignore */; };
+		58E377A120D310F2000EEFC2 /* Test in Resources */ = {isa = PBXBuildFile; fileRef = 58E377A020D310F2000EEFC2 /* Test */; };
 		9DD2F8412E79B8F52744CEE0 /* Pods_VSACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D857C156126F092E9529C01 /* Pods_VSACUITests.framework */; };
 		A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F82B258EADDA40D2721B0F /* Pods_VSAC.framework */; };
 		BF1649E72C44B48F1B4E0F6A /* Pods_VSACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435EA8E7F0828B3174967E7E /* Pods_VSACTests.framework */; };
@@ -64,6 +65,7 @@
 		589179DF1FFBF9A400DE3493 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
 		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
+		58E377A020D310F2000EEFC2 /* Test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Test; sourceTree = "<group>"; };
 		6213534D737E9B05B3F447D2 /* Pods-VSAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAC/Pods-VSAC.release.xcconfig"; sourceTree = "<group>"; };
 		D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */,
+				58E377A020D310F2000EEFC2 /* Test */,
 				5848DB681FF5B16100C99BF8 /* README.md */,
 				589179DF1FFBF9A400DE3493 /* .gitignore */,
 				587FE27A1FF58E1800B127B3 /* VSAC */,
@@ -299,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E377A120D310F2000EEFC2 /* Test in Resources */,
 				589179E01FFBF9A400DE3493 /* .gitignore in Resources */,
 				587FE2861FF58E1800B127B3 /* LaunchScreen.storyboard in Resources */,
 				587FE2831FF58E1800B127B3 /* Assets.xcassets in Resources */,
@@ -726,6 +730,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = VSACUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
@@ -742,6 +747,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = VSACUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
