@@ -17,6 +17,8 @@
 		587FE2AA1FF5A60600B127B3 /* MSEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */; };
 		587FE2AC1FF5A61500B127B3 /* MSCrashesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */; };
 		589179E01FFBF9A400DE3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 589179DF1FFBF9A400DE3493 /* .gitignore */; };
+		58E377AB20D32316000EEFC2 /* Debug-iphoneos in Resources */ = {isa = PBXBuildFile; fileRef = 58E377AA20D32316000EEFC2 /* Debug-iphoneos */; };
+		58E377AC20D32316000EEFC2 /* Debug-iphoneos in Resources */ = {isa = PBXBuildFile; fileRef = 58E377AA20D32316000EEFC2 /* Debug-iphoneos */; };
 		9DD2F8412E79B8F52744CEE0 /* Pods_VSACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D857C156126F092E9529C01 /* Pods_VSACUITests.framework */; };
 		A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F82B258EADDA40D2721B0F /* Pods_VSAC.framework */; };
 		BF1649E72C44B48F1B4E0F6A /* Pods_VSACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435EA8E7F0828B3174967E7E /* Pods_VSACTests.framework */; };
@@ -64,6 +66,7 @@
 		589179DF1FFBF9A400DE3493 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
 		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
+		58E377AA20D32316000EEFC2 /* Debug-iphoneos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Debug-iphoneos"; sourceTree = "<group>"; };
 		6213534D737E9B05B3F447D2 /* Pods-VSAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAC/Pods-VSAC.release.xcconfig"; sourceTree = "<group>"; };
 		D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +116,7 @@
 		587FE26F1FF58E1800B127B3 = {
 			isa = PBXGroup;
 			children = (
+				58E377AA20D32316000EEFC2 /* Debug-iphoneos */,
 				58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */,
 				5848DB681FF5B16100C99BF8 /* README.md */,
 				589179DF1FFBF9A400DE3493 /* .gitignore */,
@@ -304,6 +308,7 @@
 				587FE2831FF58E1800B127B3 /* Assets.xcassets in Resources */,
 				5848DB691FF5B16100C99BF8 /* README.md in Resources */,
 				587FE2811FF58E1800B127B3 /* Main.storyboard in Resources */,
+				58E377AB20D32316000EEFC2 /* Debug-iphoneos in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E377AC20D32316000EEFC2 /* Debug-iphoneos in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
