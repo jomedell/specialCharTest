@@ -46,5 +46,8 @@ class MSEventsVC: UIViewController {
     @IBAction func eventsButtonPressed(_ sender: UIButton) {
         
         MSAnalytics.trackEvent("custEvntWprop", withProperties: ["Cus1" : "one", "Cust2" : "two"])
+        
+        let installId = MSAppCenter.installId()
+        print("INSTALL ID: \(installId)")
     }
 }
