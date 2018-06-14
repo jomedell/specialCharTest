@@ -14,7 +14,7 @@ npm install -g appcenter-cli
 
 $xcrun xcodebuild build-for-testing \
 -configuration Debug \
--workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace
+-workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
 -scheme VSAC \
 -derivedDataPath $APPCENTER_SOURCE_DIRECTORY/Test
