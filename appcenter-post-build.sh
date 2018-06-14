@@ -12,12 +12,12 @@ testSeries="ScriptTest"
 
 npm install -g appcenter-cli
 
-xcrun xcodebuild build-for-testing \
--configuration Debug \
--workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
--sdk iphoneos \
--scheme VSAC \
--derivedDataPath $APPCENTER_SOURCE_DIRECTORY/Test
+#xcrun xcodebuild build-for-testing \
+#-configuration Debug \
+#-workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
+#-sdk iphoneos \
+#-scheme VSAC \
+#-derivedDataPath $APPCENTER_SOURCE_DIRECTORY/Test
 
 appcenter login --token 6157c7acffeaef8f17ee67d8952e70aaeb6f2fa4
 
