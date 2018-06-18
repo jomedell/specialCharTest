@@ -13,11 +13,10 @@
 		587FE2831FF58E1800B127B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587FE2821FF58E1800B127B3 /* Assets.xcassets */; };
 		587FE2861FF58E1800B127B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587FE2841FF58E1800B127B3 /* LaunchScreen.storyboard */; };
 		587FE2911FF58E1800B127B3 /* VSACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2901FF58E1800B127B3 /* VSACTests.swift */; };
-		587FE29C1FF58E1800B127B3 /* VSACUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE29B1FF58E1800B127B3 /* VSACUITests.swift */; };
 		587FE2AA1FF5A60600B127B3 /* MSEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */; };
 		587FE2AC1FF5A61500B127B3 /* MSCrashesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */; };
 		589179E01FFBF9A400DE3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 589179DF1FFBF9A400DE3493 /* .gitignore */; };
-		9DD2F8412E79B8F52744CEE0 /* Pods_VSACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D857C156126F092E9529C01 /* Pods_VSACUITests.framework */; };
+		58CFD04420D83E150062F6D1 /* VSACUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CFD04320D83E150062F6D1 /* VSACUITests2.swift */; };
 		A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F82B258EADDA40D2721B0F /* Pods_VSAC.framework */; };
 		BF1649E72C44B48F1B4E0F6A /* Pods_VSACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435EA8E7F0828B3174967E7E /* Pods_VSACTests.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,7 @@
 			remoteGlobalIDString = 587FE2771FF58E1800B127B3;
 			remoteInfo = VSAC;
 		};
-		587FE2981FF58E1800B127B3 /* PBXContainerItemProxy */ = {
+		58CFD04620D83E150062F6D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 587FE2701FF58E1800B127B3 /* Project object */;
 			proxyType = 1;
@@ -56,13 +55,13 @@
 		587FE28C1FF58E1800B127B3 /* VSACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587FE2901FF58E1800B127B3 /* VSACTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACTests.swift; sourceTree = "<group>"; };
 		587FE2921FF58E1800B127B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		587FE2971FF58E1800B127B3 /* VSACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		587FE29B1FF58E1800B127B3 /* VSACUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACUITests.swift; sourceTree = "<group>"; };
-		587FE29D1FF58E1800B127B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSEventsVC.swift; sourceTree = "<group>"; };
 		587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSCrashesVC.swift; sourceTree = "<group>"; };
 		589179DF1FFBF9A400DE3493 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
+		58CFD04120D83E150062F6D1 /* VSACUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACUITests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CFD04320D83E150062F6D1 /* VSACUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACUITests2.swift; sourceTree = "<group>"; };
+		58CFD04520D83E150062F6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
 		6213534D737E9B05B3F447D2 /* Pods-VSAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAC/Pods-VSAC.release.xcconfig"; sourceTree = "<group>"; };
 		D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,11 +85,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587FE2941FF58E1800B127B3 /* Frameworks */ = {
+		58CFD03E20D83E150062F6D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD2F8412E79B8F52744CEE0 /* Pods_VSACUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +116,7 @@
 				589179DF1FFBF9A400DE3493 /* .gitignore */,
 				587FE27A1FF58E1800B127B3 /* VSAC */,
 				587FE28F1FF58E1800B127B3 /* VSACTests */,
-				587FE29A1FF58E1800B127B3 /* VSACUITests */,
+				58CFD04220D83E150062F6D1 /* VSACUITests2 */,
 				587FE2791FF58E1800B127B3 /* Products */,
 				3C8151370EF82016535FEE99 /* Pods */,
 				5AC72B26F788C858F839BAFF /* Frameworks */,
@@ -130,7 +128,7 @@
 			children = (
 				587FE2781FF58E1800B127B3 /* VSAC.app */,
 				587FE28C1FF58E1800B127B3 /* VSACTests.xctest */,
-				587FE2971FF58E1800B127B3 /* VSACUITests.xctest */,
+				58CFD04120D83E150062F6D1 /* VSACUITests2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,13 +157,13 @@
 			path = VSACTests;
 			sourceTree = "<group>";
 		};
-		587FE29A1FF58E1800B127B3 /* VSACUITests */ = {
+		58CFD04220D83E150062F6D1 /* VSACUITests2 */ = {
 			isa = PBXGroup;
 			children = (
-				587FE29B1FF58E1800B127B3 /* VSACUITests.swift */,
-				587FE29D1FF58E1800B127B3 /* Info.plist */,
+				58CFD04320D83E150062F6D1 /* VSACUITests2.swift */,
+				58CFD04520D83E150062F6D1 /* Info.plist */,
 			);
-			path = VSACUITests;
+			path = VSACUITests2;
 			sourceTree = "<group>";
 		};
 		5AC72B26F788C858F839BAFF /* Frameworks */ = {
@@ -222,25 +220,22 @@
 			productReference = 587FE28C1FF58E1800B127B3 /* VSACTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		587FE2961FF58E1800B127B3 /* VSACUITests */ = {
+		58CFD04020D83E150062F6D1 /* VSACUITests2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 587FE2A61FF58E1800B127B3 /* Build configuration list for PBXNativeTarget "VSACUITests" */;
+			buildConfigurationList = 58CFD04820D83E150062F6D1 /* Build configuration list for PBXNativeTarget "VSACUITests2" */;
 			buildPhases = (
-				3369171E77CFCB80CCDC3C2A /* [CP] Check Pods Manifest.lock */,
-				587FE2931FF58E1800B127B3 /* Sources */,
-				587FE2941FF58E1800B127B3 /* Frameworks */,
-				587FE2951FF58E1800B127B3 /* Resources */,
-				66C9DCC5343F36F9D08F2FD6 /* [CP] Embed Pods Frameworks */,
-				D633E60DCA49453542890604 /* [CP] Copy Pods Resources */,
+				58CFD03D20D83E150062F6D1 /* Sources */,
+				58CFD03E20D83E150062F6D1 /* Frameworks */,
+				58CFD03F20D83E150062F6D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				587FE2991FF58E1800B127B3 /* PBXTargetDependency */,
+				58CFD04720D83E150062F6D1 /* PBXTargetDependency */,
 			);
-			name = VSACUITests;
-			productName = VSACUITests;
-			productReference = 587FE2971FF58E1800B127B3 /* VSACUITests.xctest */;
+			name = VSACUITests2;
+			productName = VSACUITests2;
+			productReference = 58CFD04120D83E150062F6D1 /* VSACUITests2.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +244,7 @@
 		587FE2701FF58E1800B127B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Microsoft;
 				TargetAttributes = {
@@ -267,8 +262,8 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 587FE2771FF58E1800B127B3;
 					};
-					587FE2961FF58E1800B127B3 = {
-						CreatedOnToolsVersion = 9.2;
+					58CFD04020D83E150062F6D1 = {
+						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 587FE2771FF58E1800B127B3;
 					};
@@ -289,7 +284,7 @@
 			targets = (
 				587FE2771FF58E1800B127B3 /* VSAC */,
 				587FE28B1FF58E1800B127B3 /* VSACTests */,
-				587FE2961FF58E1800B127B3 /* VSACUITests */,
+				58CFD04020D83E150062F6D1 /* VSACUITests2 */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +309,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587FE2951FF58E1800B127B3 /* Resources */ = {
+		58CFD03F20D83E150062F6D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,24 +350,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSAC/Pods-VSAC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3369171E77CFCB80CCDC3C2A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VSACUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4C6524B684EBD7E47A95073C /* [CP] Copy Pods Resources */ = {
@@ -423,24 +400,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACTests/Pods-VSACTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66C9DCC5343F36F9D08F2FD6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppCenterXCUITestExtensions.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7287687AF35B44084C851BD9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -454,21 +413,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACTests/Pods-VSACTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D633E60DCA49453542890604 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -492,11 +436,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		587FE2931FF58E1800B127B3 /* Sources */ = {
+		58CFD03D20D83E150062F6D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				587FE29C1FF58E1800B127B3 /* VSACUITests.swift in Sources */,
+				58CFD04420D83E150062F6D1 /* VSACUITests2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,10 +452,10 @@
 			target = 587FE2771FF58E1800B127B3 /* VSAC */;
 			targetProxy = 587FE28D1FF58E1800B127B3 /* PBXContainerItemProxy */;
 		};
-		587FE2991FF58E1800B127B3 /* PBXTargetDependency */ = {
+		58CFD04720D83E150062F6D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 587FE2771FF58E1800B127B3 /* VSAC */;
-			targetProxy = 587FE2981FF58E1800B127B3 /* PBXContainerItemProxy */;
+			targetProxy = 58CFD04620D83E150062F6D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -722,40 +666,38 @@
 			};
 			name = Release;
 		};
-		587FE2A71FF58E1800B127B3 /* Debug */ = {
+		58CFD04920D83E150062F6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
-				INFOPLIST_FILE = VSACUITests/Info.plist;
+				INFOPLIST_FILE = VSACUITests2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VSAC;
 			};
 			name = Debug;
 		};
-		587FE2A81FF58E1800B127B3 /* Release */ = {
+		58CFD04A20D83E150062F6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
-				INFOPLIST_FILE = VSACUITests/Info.plist;
+				INFOPLIST_FILE = VSACUITests2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VSAC;
@@ -792,11 +734,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		587FE2A61FF58E1800B127B3 /* Build configuration list for PBXNativeTarget "VSACUITests" */ = {
+		58CFD04820D83E150062F6D1 /* Build configuration list for PBXNativeTarget "VSACUITests2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				587FE2A71FF58E1800B127B3 /* Debug */,
-				587FE2A81FF58E1800B127B3 /* Release */,
+				58CFD04920D83E150062F6D1 /* Debug */,
+				58CFD04A20D83E150062F6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
