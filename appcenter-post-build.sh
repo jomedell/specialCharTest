@@ -36,10 +36,11 @@ rm -rf DerivedData
 xcrun xcodebuild build-for-testing \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
+-scheme VSAC \
 -derivedDataPath DerivedData
 
 #-configuration Debug \
-#-scheme VSAC \
+
 
 echo ""
 
