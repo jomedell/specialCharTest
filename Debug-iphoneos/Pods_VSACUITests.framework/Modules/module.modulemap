@@ -1,6 +1,0 @@
-framework module Pods_VSACUITests {
-  umbrella header "Pods-VSACUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
