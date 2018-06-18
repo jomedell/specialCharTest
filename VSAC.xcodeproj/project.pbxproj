@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41E8B414818412E0318B16CF /* Pods_VSACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D857C156126F092E9529C01 /* Pods_VSACUITests.framework */; };
 		5848DB691FF5B16100C99BF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5848DB681FF5B16100C99BF8 /* README.md */; };
 		587FE27C1FF58E1800B127B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE27B1FF58E1800B127B3 /* AppDelegate.swift */; };
 		587FE2811FF58E1800B127B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587FE27F1FF58E1800B127B3 /* Main.storyboard */; };
@@ -15,8 +16,8 @@
 		587FE2911FF58E1800B127B3 /* VSACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2901FF58E1800B127B3 /* VSACTests.swift */; };
 		587FE2AA1FF5A60600B127B3 /* MSEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */; };
 		587FE2AC1FF5A61500B127B3 /* MSCrashesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */; };
+		5880FE7F20D844DD0029E20C /* VSACUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5880FE7E20D844DD0029E20C /* VSACUITests.swift */; };
 		589179E01FFBF9A400DE3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 589179DF1FFBF9A400DE3493 /* .gitignore */; };
-		58CFD04420D83E150062F6D1 /* VSACUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CFD04320D83E150062F6D1 /* VSACUITests2.swift */; };
 		A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F82B258EADDA40D2721B0F /* Pods_VSAC.framework */; };
 		BF1649E72C44B48F1B4E0F6A /* Pods_VSACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435EA8E7F0828B3174967E7E /* Pods_VSACTests.framework */; };
 /* End PBXBuildFile section */
@@ -29,7 +30,7 @@
 			remoteGlobalIDString = 587FE2771FF58E1800B127B3;
 			remoteInfo = VSAC;
 		};
-		58CFD04620D83E150062F6D1 /* PBXContainerItemProxy */ = {
+		5880FE8120D844DD0029E20C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 587FE2701FF58E1800B127B3 /* Project object */;
 			proxyType = 1;
@@ -57,11 +58,11 @@
 		587FE2921FF58E1800B127B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSEventsVC.swift; sourceTree = "<group>"; };
 		587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSCrashesVC.swift; sourceTree = "<group>"; };
+		5880FE7C20D844DD0029E20C /* VSACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5880FE7E20D844DD0029E20C /* VSACUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACUITests.swift; sourceTree = "<group>"; };
+		5880FE8020D844DD0029E20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		589179DF1FFBF9A400DE3493 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
-		58CFD04120D83E150062F6D1 /* VSACUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACUITests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CFD04320D83E150062F6D1 /* VSACUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACUITests2.swift; sourceTree = "<group>"; };
-		58CFD04520D83E150062F6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
 		6213534D737E9B05B3F447D2 /* Pods-VSAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAC/Pods-VSAC.release.xcconfig"; sourceTree = "<group>"; };
 		D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,10 +86,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58CFD03E20D83E150062F6D1 /* Frameworks */ = {
+		5880FE7920D844DD0029E20C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E8B414818412E0318B16CF /* Pods_VSACUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +118,7 @@
 				589179DF1FFBF9A400DE3493 /* .gitignore */,
 				587FE27A1FF58E1800B127B3 /* VSAC */,
 				587FE28F1FF58E1800B127B3 /* VSACTests */,
-				58CFD04220D83E150062F6D1 /* VSACUITests2 */,
+				5880FE7D20D844DD0029E20C /* VSACUITests */,
 				587FE2791FF58E1800B127B3 /* Products */,
 				3C8151370EF82016535FEE99 /* Pods */,
 				5AC72B26F788C858F839BAFF /* Frameworks */,
@@ -128,7 +130,7 @@
 			children = (
 				587FE2781FF58E1800B127B3 /* VSAC.app */,
 				587FE28C1FF58E1800B127B3 /* VSACTests.xctest */,
-				58CFD04120D83E150062F6D1 /* VSACUITests2.xctest */,
+				5880FE7C20D844DD0029E20C /* VSACUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,13 +159,13 @@
 			path = VSACTests;
 			sourceTree = "<group>";
 		};
-		58CFD04220D83E150062F6D1 /* VSACUITests2 */ = {
+		5880FE7D20D844DD0029E20C /* VSACUITests */ = {
 			isa = PBXGroup;
 			children = (
-				58CFD04320D83E150062F6D1 /* VSACUITests2.swift */,
-				58CFD04520D83E150062F6D1 /* Info.plist */,
+				5880FE7E20D844DD0029E20C /* VSACUITests.swift */,
+				5880FE8020D844DD0029E20C /* Info.plist */,
 			);
-			path = VSACUITests2;
+			path = VSACUITests;
 			sourceTree = "<group>";
 		};
 		5AC72B26F788C858F839BAFF /* Frameworks */ = {
@@ -220,22 +222,25 @@
 			productReference = 587FE28C1FF58E1800B127B3 /* VSACTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		58CFD04020D83E150062F6D1 /* VSACUITests2 */ = {
+		5880FE7B20D844DD0029E20C /* VSACUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58CFD04820D83E150062F6D1 /* Build configuration list for PBXNativeTarget "VSACUITests2" */;
+			buildConfigurationList = 5880FE8320D844DD0029E20C /* Build configuration list for PBXNativeTarget "VSACUITests" */;
 			buildPhases = (
-				58CFD03D20D83E150062F6D1 /* Sources */,
-				58CFD03E20D83E150062F6D1 /* Frameworks */,
-				58CFD03F20D83E150062F6D1 /* Resources */,
+				72AA36D6FC0CA6902EB59F46 /* [CP] Check Pods Manifest.lock */,
+				5880FE7820D844DD0029E20C /* Sources */,
+				5880FE7920D844DD0029E20C /* Frameworks */,
+				5880FE7A20D844DD0029E20C /* Resources */,
+				8D1CBA9C6D3783AC8CE26A65 /* [CP] Embed Pods Frameworks */,
+				8880D9BE7E055E64F4E03D48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				58CFD04720D83E150062F6D1 /* PBXTargetDependency */,
+				5880FE8220D844DD0029E20C /* PBXTargetDependency */,
 			);
-			name = VSACUITests2;
-			productName = VSACUITests2;
-			productReference = 58CFD04120D83E150062F6D1 /* VSACUITests2.xctest */;
+			name = VSACUITests;
+			productName = VSACUITests;
+			productReference = 5880FE7C20D844DD0029E20C /* VSACUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +267,7 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 587FE2771FF58E1800B127B3;
 					};
-					58CFD04020D83E150062F6D1 = {
+					5880FE7B20D844DD0029E20C = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 587FE2771FF58E1800B127B3;
@@ -284,7 +289,7 @@
 			targets = (
 				587FE2771FF58E1800B127B3 /* VSAC */,
 				587FE28B1FF58E1800B127B3 /* VSACTests */,
-				58CFD04020D83E150062F6D1 /* VSACUITests2 */,
+				5880FE7B20D844DD0029E20C /* VSACUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58CFD03F20D83E150062F6D1 /* Resources */ = {
+		5880FE7A20D844DD0029E20C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,6 +420,57 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACTests/Pods-VSACTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		72AA36D6FC0CA6902EB59F46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSACUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8880D9BE7E055E64F4E03D48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1CBA9C6D3783AC8CE26A65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppCenterXCUITestExtensions.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -436,11 +492,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58CFD03D20D83E150062F6D1 /* Sources */ = {
+		5880FE7820D844DD0029E20C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CFD04420D83E150062F6D1 /* VSACUITests2.swift in Sources */,
+				5880FE7F20D844DD0029E20C /* VSACUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,10 +508,10 @@
 			target = 587FE2771FF58E1800B127B3 /* VSAC */;
 			targetProxy = 587FE28D1FF58E1800B127B3 /* PBXContainerItemProxy */;
 		};
-		58CFD04720D83E150062F6D1 /* PBXTargetDependency */ = {
+		5880FE8220D844DD0029E20C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 587FE2771FF58E1800B127B3 /* VSAC */;
-			targetProxy = 58CFD04620D83E150062F6D1 /* PBXContainerItemProxy */;
+			targetProxy = 5880FE8120D844DD0029E20C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -666,18 +722,19 @@
 			};
 			name = Release;
 		};
-		58CFD04920D83E150062F6D1 /* Debug */ = {
+		5880FE8420D844DD0029E20C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
-				INFOPLIST_FILE = VSACUITests2/Info.plist;
+				INFOPLIST_FILE = VSACUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -685,18 +742,19 @@
 			};
 			name = Debug;
 		};
-		58CFD04A20D83E150062F6D1 /* Release */ = {
+		5880FE8520D844DD0029E20C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
-				INFOPLIST_FILE = VSACUITests2/Info.plist;
+				INFOPLIST_FILE = VSACUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -734,11 +792,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58CFD04820D83E150062F6D1 /* Build configuration list for PBXNativeTarget "VSACUITests2" */ = {
+		5880FE8320D844DD0029E20C /* Build configuration list for PBXNativeTarget "VSACUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58CFD04920D83E150062F6D1 /* Debug */,
-				58CFD04A20D83E150062F6D1 /* Release */,
+				5880FE8420D844DD0029E20C /* Debug */,
+				5880FE8520D844DD0029E20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
