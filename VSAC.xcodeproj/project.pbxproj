@@ -270,7 +270,6 @@
 					587FE2961FF58E1800B127B3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 587FE2771FF58E1800B127B3;
 					};
 				};
 			};
@@ -738,7 +737,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VSAC;
 			};
 			name = Debug;
 		};
@@ -758,7 +756,6 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VSAC;
 			};
 			name = Release;
 		};
