@@ -41,6 +41,7 @@ xcrun xcodebuild build-for-testing \
 -derivedDataPath DerivedData
 #-derivedDataPath $APPCENTER_SOURCE_DIRECTORY/Test
 
+
 echo ""
 
 echo "Run UI test CLI command"
