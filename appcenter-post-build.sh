@@ -34,18 +34,17 @@ echo "Build UI Test"
 
 rm -rf DerivedData
 xcrun xcodebuild build-for-testing \
+-configuration Debug \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
 -scheme VSAC \
 -derivedDataPath DerivedData
 
-#-configuration Debug \
-
 
 echo ""
 
 echo "Run UI test CLI command"
-appcenter login --token
+appcenter login --token appCenterAPItoken
 
 appcenter test run xcuitest --app $appName --devices $devices --app-path $APPCENTER_OUTPUT_DIRECTORY/*.ipa --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos
 
