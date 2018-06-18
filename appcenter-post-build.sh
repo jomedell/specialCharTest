@@ -34,7 +34,7 @@ echo "Build UI Test"
 
 #rm -rf DerivedData
 xcrun xcodebuild build-for-testing \
--allowProvisioningUpdates
+-allowProvisioningUpdates \
 -configuration Debug \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
