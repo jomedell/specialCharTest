@@ -265,7 +265,6 @@
 					587FE28B1FF58E1800B127B3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 587FE2771FF58E1800B127B3;
 					};
 					587FE2961FF58E1800B127B3 = {
 						CreatedOnToolsVersion = 9.2;
@@ -691,7 +690,6 @@
 			baseConfigurationReference = 380A3F6D02AC053928EA5C77 /* Pods-VSACTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = VSACTests/Info.plist;
@@ -700,7 +698,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSAC.app/VSAC";
 			};
 			name = Debug;
 		};
@@ -709,7 +706,6 @@
 			baseConfigurationReference = 4066418273D8C28AE465FB62 /* Pods-VSACTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = VSACTests/Info.plist;
@@ -718,7 +714,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSAC.app/VSAC";
 			};
 			name = Release;
 		};
@@ -727,6 +722,7 @@
 			baseConfigurationReference = F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = VSACUITests/Info.plist;
@@ -734,6 +730,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VSAC;
@@ -745,6 +742,7 @@
 			baseConfigurationReference = D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBF8T346G9;
 				INFOPLIST_FILE = VSACUITests/Info.plist;
@@ -752,6 +750,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = VSAC;

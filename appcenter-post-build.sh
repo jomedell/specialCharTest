@@ -47,7 +47,7 @@ echo ""
 echo "Run UI test CLI command"
 appcenter login --token
 
-appcenter test run xcuitest --app $appName --devices $devices --app-path $APPCENTER_OUTPUT_DIRECTORY/*.ipa --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos
+appcenter test run xcuitest --app $appName --devices $devices --app-path $APPCENTER_OUTPUT_DIRECTORY/*.ipa --test-series $testSeries --locale "en_US" --build-dir $DerivedData/Build/Products/Debug-iphoneos
 
 echo "*******************************"
 echo "Post Build Script Complete"
