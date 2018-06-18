@@ -32,16 +32,14 @@ echo ""
 
 echo "Build UI Test"
 
-#rm -rf DerivedData
+rm -rf DerivedData
 xcrun xcodebuild build-for-testing \
--allowProvisioningUpdates \
--configuration Debug \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
--scheme VSAC \
 -derivedDataPath DerivedData
-#-derivedDataPath $APPCENTER_SOURCE_DIRECTORY/Test
 
+#-configuration Debug \
+#-scheme VSAC \
 
 echo ""
 
