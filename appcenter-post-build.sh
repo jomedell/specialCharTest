@@ -38,7 +38,7 @@ xcrun xcodebuild build-for-testing \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
 -scheme VSAC \
--derivedDataPath TestBundle
+-derivedDataPath $APPCENTER_SOURCE_DIRECTORY/TestBundle
 #-derivedDataPath $APPCENTER_SOURCE_DIRECTORY/Test
 
 
@@ -47,7 +47,7 @@ echo ""
 echo "Run UI test CLI command"
 appcenter login --token
 
-appcenter test run xcuitest --app $appName --devices $devices --app-path $APPCENTER_OUTPUT_DIRECTORY/*.ipa --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_OUTPUT_DIRECTORY/TestBundle/Build/Products/Debug-iphoneos
+appcenter test run xcuitest --app $appName --devices $devices --app-path $APPCENTER_OUTPUT_DIRECTORY/*.ipa --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_SOURCE_DIRECTORY/TestBundle/Build/Products/Debug-iphoneos
 
 echo "*******************************"
 echo "Post Build Script Complete"
