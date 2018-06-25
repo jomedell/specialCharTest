@@ -18,6 +18,13 @@ echo "******************************************************"
 echo "Post Build Script"
 echo "******************************************************"
 
+echo "Origianl CustomVariable"
+echo $CustomVariable
+echo "CustomVariable update"
+$CustomVariable="changedVariable"
+echo $CustomVariable
+echo "Finished updating variable"
+
 appCenterAPItoken=$AppCenterToken
 appName="VSAC-Organization/VSACiOS"
 devices="VSAC-Organization/iphoneset"
