@@ -21,6 +21,7 @@ echo "******************************************************"
 echo "Origianl CustomVariable"
 echo $CustomVariable
 echo "CustomVariable update"
+sudo -H gedit /etc/environment
 $CustomVariable="changedVariable"
 echo $CustomVariable
 echo "Finished updating variable"
