@@ -21,7 +21,7 @@ echo "******************************************************"
 echo "Origianl CustomVariable"
 echo $CustomVariable
 echo "CustomVariable update"
-export $CustomVariable="changedVariable"
+let $CustomVariable="changedVariable"
 echo $CustomVariable
 echo "Finished updating variable"
 
