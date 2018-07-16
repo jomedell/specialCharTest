@@ -51,7 +51,7 @@ xcrun xcodebuild build-for-testing \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
 -scheme VSAC \
--derivedDataPath DerivedData
+-derivedDataPath DerivedData -allowProvisioningUpdates
 
 
 echo ""
