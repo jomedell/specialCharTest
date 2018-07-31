@@ -47,6 +47,8 @@ class MSEventsVC: UIViewController {
         
         MSAnalytics.trackEvent("custEvntWprop", withProperties: ["Cus1" : "one", "Cust2" : "two"])
         
+        MSAnalytics.trackEvent("withNoDictionary")
+        
         let installId = MSAppCenter.installId()
         print("INSTALL ID: \(installId)")
     }
