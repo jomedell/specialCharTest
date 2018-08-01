@@ -51,7 +51,8 @@ xcrun xcodebuild build-for-testing \
 -workspace $APPCENTER_SOURCE_DIRECTORY/VSAC.xcworkspace \
 -sdk iphoneos \
 -scheme VSAC \
--derivedDataPath DerivedData
+-derivedDataPath DerivedData \
+-allowProvisioningUpdates
 
 
 echo ""
@@ -68,7 +69,7 @@ ls $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos
 echo "Run UI test CLI command"
 appcenter login --token appCenterAPItoken
 
-appcenter test run xcuitest --app $appName --devices $devices --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos -allowProvisioningUpdates
+appcenter test run xcuitest --app $appName --devices $devices --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos --debug
 
 #--app-path $APPCENTER_OUTPUT_DIRECTORY/*.ipa
 
