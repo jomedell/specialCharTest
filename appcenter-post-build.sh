@@ -54,6 +54,8 @@ xcrun xcodebuild build-for-testing \
 -derivedDataPath DerivedData \
 -allowProvisioningUpdates
 
+echo "scheme list"
+ls xcrun xcodebuild -list
 
 echo ""
 
