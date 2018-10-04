@@ -50,7 +50,6 @@ class MSEventsVC: UIViewController {
         MSAnalytics.trackEvent("withNoDictionary")
         
         
-        
         let installId = MSAppCenter.installId()
         print("INSTALL ID: \(installId)")
     }
