@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import AppCenter
 import AppCenterAnalytics
-import AppCenterPush
+//import AppCenterPush
 
 class MSEventsVC: UIViewController {
     
@@ -26,9 +26,9 @@ class MSEventsVC: UIViewController {
         
         // TODO: move to MSPushVC
         let installId = MSAppCenter.installId()
-        print("PUSH - InstallID: \(installId?.description ?? "none")")
+       print("PUSH - InstallID: \(installId?.description ?? "none")")
         
-        
+         // Custom properties - segment users then send push notifications
         let customProperties = MSCustomProperties()
         customProperties.setString("Black", forKey: "Color")
         customProperties.setNumber(10, forKey: "Number")
@@ -50,7 +50,6 @@ class MSEventsVC: UIViewController {
         MSAnalytics.trackEvent("withNoDictionary")
         
         
-        let installId = MSAppCenter.installId()
-        print("INSTALL ID: \(installId)")
+       
     }
 }

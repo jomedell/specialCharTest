@@ -10,7 +10,7 @@ import UIKit
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
-import AppCenterPush
+////import AppCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,13 +20,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
+        // Get details about last crash
+//         var crashReport = MSCrashes.lastSessionCrashReport()
+        MSCrashes.hasCrashedInLastSession()
+        // attach text file to report
+//        func attachments(with crashes: MSCrashes, for errorReport: MSErrorReport) -> [MSErrorAttachmentLog] {
+//            let attachment1 = MSErrorAttachmentLog.attachment(withText: "Hello World!!", filename: "hello.txt")
+//            return [attachment1!]
+//        }
+        
         // App Center
         MSAppCenter.setLogLevel(.verbose)
         
         MSAppCenter.start("a13bed42-d505-4f08-acab-aefd176d0805", withServices:[
             MSAnalytics.self,
-            MSCrashes.self,
-            MSPush.self
+            MSCrashes.self
             ])
         
         return true

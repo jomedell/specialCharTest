@@ -32,6 +32,8 @@ class MSCrashesVC: UIViewController {
     // MARK Actions
     
     @IBAction func crashesButtonPressed(_ sender: UIButton) {
+        
+        
         MSCrashes.generateTestCrash()
     }
 }

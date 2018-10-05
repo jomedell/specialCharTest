@@ -4,7 +4,9 @@ use_frameworks!
 target 'VSAC' do
 
   pod 'AppCenter'
-  pod 'AppCenter/Push'
+#  pod 'AppCenter/Analytics'
+#  pod 'AppCenter/Crashes'
+#  pod 'AppCenter/Push'
 
   target 'VSACTests' do
     inherit! :search_paths
