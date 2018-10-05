@@ -12,6 +12,6 @@ steps:
     actions: 'build'
     scheme: 'VSAC'
     sdk: 'iphoneos'
-    configuration: 'Debug'
+    configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
