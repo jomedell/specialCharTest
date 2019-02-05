@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import AppCenterCrashes
+import AppCenter
 
 class MSCrashesVC: UIViewController {
     
@@ -34,6 +35,8 @@ class MSCrashesVC: UIViewController {
     @IBAction func crashesButtonPressed(_ sender: UIButton) {
         
         
+        
+        MSAppCenter.setUserId("Jorge123")
         MSCrashes.generateTestCrash()
     }
 }
