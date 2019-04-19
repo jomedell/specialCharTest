@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5880FE7B20D844DD0029E20C"
+               BlueprintIdentifier = "58BCF93E226A736E004D5173"
                BuildableName = "VSACUITests.xctest"
                BlueprintName = "VSACUITests"
+               ReferencedContainer = "container:VSAC.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "58BCF94C226A7391004D5173"
+               BuildableName = "VSACTests.xctest"
+               BlueprintName = "VSACTests"
                ReferencedContainer = "container:VSAC.xcodeproj">
             </BuildableReference>
          </TestableReference>
