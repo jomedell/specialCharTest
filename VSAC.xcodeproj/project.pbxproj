@@ -17,27 +17,8 @@
 		587FE2AA1FF5A60600B127B3 /* MSEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2A91FF5A60600B127B3 /* MSEventsVC.swift */; };
 		587FE2AC1FF5A61500B127B3 /* MSCrashesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587FE2AB1FF5A61500B127B3 /* MSCrashesVC.swift */; };
 		589179E01FFBF9A400DE3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 589179DF1FFBF9A400DE3493 /* .gitignore */; };
-		58BCF942226A736E004D5173 /* VSACUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCF941226A736E004D5173 /* VSACUITests.swift */; };
-		58BCF950226A7391004D5173 /* VSACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCF94F226A7391004D5173 /* VSACTests.swift */; };
 		A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F82B258EADDA40D2721B0F /* Pods_VSAC.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		58BCF944226A736E004D5173 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 587FE2701FF58E1800B127B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 587FE2771FF58E1800B127B3;
-			remoteInfo = VSAC;
-		};
-		58BCF952226A7391004D5173 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 587FE2701FF58E1800B127B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 587FE2771FF58E1800B127B3;
-			remoteInfo = VSAC;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D857C156126F092E9529C01 /* Pods_VSACUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSACUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,10 +45,8 @@
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
 		58BCF92C226A6D54004D5173 /* VSACTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VSACTests copy-Info.plist"; path = "/Volumes/LaCie by Starck/Microsoft/OneDrive - Microsoft/VS App Center/Test Apps/VSACiOS_VSTS/VSACTests copy-Info.plist"; sourceTree = "<absolute>"; };
 		58BCF93A226A6DF3004D5173 /* VSACTests copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VSACTests copy2-Info.plist"; path = "/Volumes/LaCie by Starck/Microsoft/OneDrive - Microsoft/VS App Center/Test Apps/VSACiOS_VSTS/VSACTests copy2-Info.plist"; sourceTree = "<absolute>"; };
-		58BCF93F226A736E004D5173 /* VSACUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BCF941226A736E004D5173 /* VSACUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACUITests.swift; sourceTree = "<group>"; };
 		58BCF943226A736E004D5173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58BCF94D226A7391004D5173 /* VSACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSACTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BCF94F226A7391004D5173 /* VSACTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSACTests.swift; sourceTree = "<group>"; };
 		58BCF951226A7391004D5173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
@@ -82,20 +61,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58BCF93C226A736E004D5173 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58BCF94A226A7391004D5173 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				587FE2781FF58E1800B127B3 /* VSAC.app */,
-				58BCF93F226A736E004D5173 /* VSACUITests.xctest */,
-				58BCF94D226A7391004D5173 /* VSACTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,42 +190,6 @@
 			productReference = 587FE2781FF58E1800B127B3 /* VSAC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58BCF93E226A736E004D5173 /* VSACUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58BCF946226A736E004D5173 /* Build configuration list for PBXNativeTarget "VSACUITests" */;
-			buildPhases = (
-				58BCF93B226A736E004D5173 /* Sources */,
-				58BCF93C226A736E004D5173 /* Frameworks */,
-				58BCF93D226A736E004D5173 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58BCF945226A736E004D5173 /* PBXTargetDependency */,
-			);
-			name = VSACUITests;
-			productName = VSACUITests;
-			productReference = 58BCF93F226A736E004D5173 /* VSACUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		58BCF94C226A7391004D5173 /* VSACTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58BCF954226A7391004D5173 /* Build configuration list for PBXNativeTarget "VSACTests" */;
-			buildPhases = (
-				58BCF949226A7391004D5173 /* Sources */,
-				58BCF94A226A7391004D5173 /* Frameworks */,
-				58BCF94B226A7391004D5173 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58BCF953226A7391004D5173 /* PBXTargetDependency */,
-			);
-			name = VSACTests;
-			productName = VSACTests;
-			productReference = 58BCF94D226A7391004D5173 /* VSACTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -283,16 +210,6 @@
 							};
 						};
 					};
-					58BCF93E226A736E004D5173 = {
-						CreatedOnToolsVersion = 10.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 587FE2771FF58E1800B127B3;
-					};
-					58BCF94C226A7391004D5173 = {
-						CreatedOnToolsVersion = 10.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 587FE2771FF58E1800B127B3;
-					};
 				};
 			};
 			buildConfigurationList = 587FE2731FF58E1800B127B3 /* Build configuration list for PBXProject "VSAC" */;
@@ -309,8 +226,6 @@
 			projectRoot = "";
 			targets = (
 				587FE2771FF58E1800B127B3 /* VSAC */,
-				58BCF93E226A736E004D5173 /* VSACUITests */,
-				58BCF94C226A7391004D5173 /* VSACTests */,
 			);
 		};
 /* End PBXProject section */
@@ -327,20 +242,6 @@
 				5848DB691FF5B16100C99BF8 /* README.md in Resources */,
 				582EED262167B149002D13B9 /* appcenter-post-build.sh in Resources */,
 				587FE2811FF58E1800B127B3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58BCF93D226A736E004D5173 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58BCF94B226A7391004D5173 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,36 +279,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58BCF93B226A736E004D5173 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58BCF942226A736E004D5173 /* VSACUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58BCF949226A7391004D5173 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58BCF950226A7391004D5173 /* VSACTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		58BCF945226A736E004D5173 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 587FE2771FF58E1800B127B3 /* VSAC */;
-			targetProxy = 58BCF944226A736E004D5173 /* PBXContainerItemProxy */;
-		};
-		58BCF953226A7391004D5173 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 587FE2771FF58E1800B127B3 /* VSAC */;
-			targetProxy = 58BCF952226A7391004D5173 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		587FE27F1FF58E1800B127B3 /* Main.storyboard */ = {
@@ -581,90 +453,6 @@
 			};
 			name = Release;
 		};
-		58BCF947226A736E004D5173 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J5R5DMF97B;
-				INFOPLIST_FILE = VSACUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VSAC;
-			};
-			name = Debug;
-		};
-		58BCF948226A736E004D5173 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J5R5DMF97B;
-				INFOPLIST_FILE = VSACUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = VSAC;
-			};
-			name = Release;
-		};
-		58BCF955226A7391004D5173 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J5R5DMF97B;
-				INFOPLIST_FILE = VSACTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSAC.app/VSAC";
-			};
-			name = Debug;
-		};
-		58BCF956226A7391004D5173 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J5R5DMF97B;
-				INFOPLIST_FILE = VSACTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSAC.app/VSAC";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -682,24 +470,6 @@
 			buildConfigurations = (
 				587FE2A11FF58E1800B127B3 /* Debug */,
 				587FE2A21FF58E1800B127B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58BCF946226A736E004D5173 /* Build configuration list for PBXNativeTarget "VSACUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58BCF947226A736E004D5173 /* Debug */,
-				58BCF948226A736E004D5173 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58BCF954226A7391004D5173 /* Build configuration list for PBXNativeTarget "VSACTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58BCF955226A7391004D5173 /* Debug */,
-				58BCF956226A7391004D5173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
