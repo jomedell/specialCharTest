@@ -66,6 +66,8 @@
 		5880FE8020D844DD0029E20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		589179DF1FFBF9A400DE3493 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		589179E11FFD467100DE3493 /* VSAC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSAC.entitlements; sourceTree = "<group>"; };
+		58BCF92C226A6D54004D5173 /* VSACTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VSACTests copy-Info.plist"; path = "/Volumes/LaCie by Starck/Microsoft/OneDrive - Microsoft/VS App Center/Test Apps/VSACiOS_VSTS/VSACTests copy-Info.plist"; sourceTree = "<absolute>"; };
+		58BCF93A226A6DF3004D5173 /* VSACTests copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VSACTests copy2-Info.plist"; path = "/Volumes/LaCie by Starck/Microsoft/OneDrive - Microsoft/VS App Center/Test Apps/VSACiOS_VSTS/VSACTests copy2-Info.plist"; sourceTree = "<absolute>"; };
 		58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "appcenter-post-build.sh"; sourceTree = "<group>"; };
 		6213534D737E9B05B3F447D2 /* Pods-VSAC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSAC.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSAC/Pods-VSAC.release.xcconfig"; sourceTree = "<group>"; };
 		D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,8 @@
 				587FE2791FF58E1800B127B3 /* Products */,
 				3C8151370EF82016535FEE99 /* Pods */,
 				5AC72B26F788C858F839BAFF /* Frameworks */,
+				58BCF92C226A6D54004D5173 /* VSACTests copy-Info.plist */,
+				58BCF93A226A6DF3004D5173 /* VSACTests copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -625,7 +629,7 @@
 				DEVELOPMENT_TEAM = J5R5DMF97B;
 				INFOPLIST_FILE = VSACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -644,7 +648,7 @@
 				DEVELOPMENT_TEAM = J5R5DMF97B;
 				INFOPLIST_FILE = VSACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -666,7 +670,7 @@
 				INFOPLIST_FILE = VSACUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -689,7 +693,7 @@
 				INFOPLIST_FILE = VSACUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.VSACUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcenter.VSACUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
