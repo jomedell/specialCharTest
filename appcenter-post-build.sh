@@ -55,18 +55,18 @@ echo "Build UI Test"
 #-allowProvisioningUpdates
 
 echo "scheme list"
-ls xcrun xcodebuild -list
+#ls xcrun xcodebuild -list
 
 echo ""
 
 echo "list files in APPCENTER_OUTPUT_DIRECTORY"
-ls $APPCENTER_OUTPUT_DIRECTORY
+#ls $APPCENTER_OUTPUT_DIRECTORY
 
 echo "list files in DerivedData SOURCE_DIRECTORY"
-ls $APPCENTER_SOURCE_DIRECTORY/DerivedData
+#ls $APPCENTER_SOURCE_DIRECTORY/DerivedData
 
 echo "list files in DerivedData Debug-iphoneeos"
-ls $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos
+#ls $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos
 
 echo "Run UI test CLI command"
 appcenter login --token appCenterAPItoken
