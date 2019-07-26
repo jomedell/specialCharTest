@@ -54,6 +54,7 @@ echo "Build UI Test"
 #-derivedDataPath DerivedData \
 #-allowProvisioningUpdates
 #
+#
 
 echo "scheme list"
 #ls xcrun xcodebuild -list
