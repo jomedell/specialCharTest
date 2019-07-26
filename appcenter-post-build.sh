@@ -39,7 +39,7 @@ echo ""
 
 echo "Run npm command"
 
-npm install -g appcenter-cli
+#npm install -g appcenter-cli
 
 echo ""
 
@@ -70,7 +70,7 @@ echo "list files in DerivedData Debug-iphoneeos"
 #ls $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos
 
 echo "Run UI test CLI command"
-appcenter login --token appCenterAPItoken
+#appcenter login --token appCenterAPItoken
 
 #appcenter test run xcuitest --app $appName --devices $devices --test-series $testSeries --locale "en_US" --build-dir $APPCENTER_SOURCE_DIRECTORY/DerivedData/Build/Products/Debug-iphoneos --debug
 
