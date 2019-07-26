@@ -53,6 +53,7 @@ echo "Build UI Test"
 #-scheme VSAC \
 #-derivedDataPath DerivedData \
 #-allowProvisioningUpdates
+#
 
 echo "scheme list"
 #ls xcrun xcodebuild -list
