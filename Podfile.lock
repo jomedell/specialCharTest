@@ -1,16 +1,19 @@
 PODS:
-  - AppCenter (1.13.0):
-    - AppCenter/Analytics (= 1.13.0)
-    - AppCenter/Crashes (= 1.13.0)
-  - AppCenter/Analytics (1.13.0):
+  - AppCenter (2.2.0):
+    - AppCenter/Analytics (= 2.2.0)
+    - AppCenter/Crashes (= 2.2.0)
+  - AppCenter/Analytics (2.2.0):
     - AppCenter/Core
-  - AppCenter/Core (1.13.0)
-  - AppCenter/Crashes (1.13.0):
+  - AppCenter/Core (2.2.0)
+  - AppCenter/Crashes (2.2.0):
+    - AppCenter/Core
+  - AppCenter/Push (2.2.0):
     - AppCenter/Core
   - AppCenterXCUITestExtensions (1.0.0)
 
 DEPENDENCIES:
   - AppCenter
+  - AppCenter/Push
   - AppCenterXCUITestExtensions
 
 SPEC REPOS:
@@ -19,9 +22,9 @@ SPEC REPOS:
     - AppCenterXCUITestExtensions
 
 SPEC CHECKSUMS:
-  AppCenter: a70408f15de23f925001bfc7b7473094a009a4eb
+  AppCenter: c809e69d93218b9861b4f8e54ded8dcf4d2131e7
   AppCenterXCUITestExtensions: 8825ed941664fa21d6740a5ed6928a84c06623ac
 
-PODFILE CHECKSUM: 1835023c8ce8cc718316487df42e791ce915128b
+PODFILE CHECKSUM: 61bde5f32ff75c6ae45dbeaaa03b988082b43dcb
 
 COCOAPODS: 1.5.3

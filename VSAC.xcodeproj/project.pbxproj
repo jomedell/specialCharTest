@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E4BF1F3240580D3EEE79D8 /* Pods_VSACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435EA8E7F0828B3174967E7E /* Pods_VSACTests.framework */; };
 		582EED252167B130002D13B9 /* azure-pipelines.yml in Resources */ = {isa = PBXBuildFile; fileRef = 582EED242167B130002D13B9 /* azure-pipelines.yml */; };
 		582EED262167B149002D13B9 /* appcenter-post-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 58E3779F208E3EAA000EEFC2 /* appcenter-post-build.sh */; };
 		5848DB691FF5B16100C99BF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5848DB681FF5B16100C99BF8 /* README.md */; };
@@ -19,6 +20,7 @@
 		589179E01FFBF9A400DE3493 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 589179DF1FFBF9A400DE3493 /* .gitignore */; };
 		58D0C95622EB81BD00C052EE /* VSACUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D0C95522EB81BD00C052EE /* VSACUITests.swift */; };
 		58D0C96422EB81C800C052EE /* VSACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D0C96322EB81C800C052EE /* VSACTests.swift */; };
+		91B14DC4399D21322E612E1F /* Pods_VSACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D857C156126F092E9529C01 /* Pods_VSACUITests.framework */; };
 		A227816562A420EC2BBFBBCB /* Pods_VSAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F82B258EADDA40D2721B0F /* Pods_VSAC.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91B14DC4399D21322E612E1F /* Pods_VSACUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E4BF1F3240580D3EEE79D8 /* Pods_VSACTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58D0C95A22EB81BD00C052EE /* Build configuration list for PBXNativeTarget "VSACUITests" */;
 			buildPhases = (
+				2C7476D84A012C27D65ED14A /* [CP] Check Pods Manifest.lock */,
 				58D0C94F22EB81BD00C052EE /* Sources */,
 				58D0C95022EB81BD00C052EE /* Frameworks */,
 				58D0C95122EB81BD00C052EE /* Resources */,
+				18648476407C9E5B247E504B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58D0C96822EB81C800C052EE /* Build configuration list for PBXNativeTarget "VSACTests" */;
 			buildPhases = (
+				6EBCC48AE4FCCBF475116887 /* [CP] Check Pods Manifest.lock */,
 				58D0C95D22EB81C800C052EE /* Sources */,
 				58D0C95E22EB81C800C052EE /* Frameworks */,
 				58D0C95F22EB81C800C052EE /* Resources */,
@@ -254,6 +261,9 @@
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -335,6 +345,72 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-VSAC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18648476407C9E5B247E504B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppCenterXCUITestExtensions.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C7476D84A012C27D65ED14A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSACUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EBCC48AE4FCCBF475116887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VSACTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -559,6 +635,7 @@
 		};
 		58D0C95B22EB81BD00C052EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F828551E36D672CAF0F1BF97 /* Pods-VSACUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -582,6 +659,7 @@
 		};
 		58D0C95C22EB81BD00C052EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94D326A499CB9EA1C9800E5 /* Pods-VSACUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
@@ -604,6 +682,7 @@
 		};
 		58D0C96922EB81C800C052EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380A3F6D02AC053928EA5C77 /* Pods-VSACTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -627,6 +706,7 @@
 		};
 		58D0C96A22EB81C800C052EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4066418273D8C28AE465FB62 /* Pods-VSACTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_OBJC_WEAK = YES;
