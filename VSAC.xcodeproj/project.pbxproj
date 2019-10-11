@@ -356,21 +356,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AppCenterXCUITestExtensions/AppCenterXCUITestExtensions.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppCenterXCUITestExtensions.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VSACUITests/Pods-VSACUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2C7476D84A012C27D65ED14A /* [CP] Check Pods Manifest.lock */ = {

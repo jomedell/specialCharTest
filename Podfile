@@ -4,8 +4,8 @@ use_frameworks!
 target 'VSAC' do
 
   pod 'AppCenter'
-#  pod 'AppCenter/Analytics'
-#  pod 'AppCenter/Crashes'
+# pod 'AppCenter/Analytics'
+# pod 'AppCenter/Crashes'
   pod 'AppCenter/Push'
 
   target 'VSACTests' do
