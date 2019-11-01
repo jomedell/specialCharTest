@@ -1,28 +1,22 @@
 PODS:
-  - AppCenter/Analytics (2.5.0):
-    - AppCenter/Core
-  - AppCenter/Core (2.5.0)
-  - AppCenter/Crashes (2.5.0):
-    - AppCenter/Core
-  - AppCenter/Push (2.5.0):
-    - AppCenter/Core
   - AppCenterXCUITestExtensions (1.0.0)
+  - HockeySDK (5.1.4):
+    - HockeySDK/DefaultLib (= 5.1.4)
+  - HockeySDK/DefaultLib (5.1.4)
 
 DEPENDENCIES:
-  - AppCenter/Analytics
-  - AppCenter/Crashes
-  - AppCenter/Push
   - AppCenterXCUITestExtensions
+  - HockeySDK
 
 SPEC REPOS:
   trunk:
-    - AppCenter
     - AppCenterXCUITestExtensions
+    - HockeySDK
 
 SPEC CHECKSUMS:
-  AppCenter: 637f180deefc61e8ab3f94223869ee50f61dabea
   AppCenterXCUITestExtensions: 8825ed941664fa21d6740a5ed6928a84c06623ac
+  HockeySDK: 15afe6bc0a5bfe3a531fd73dbf082095f37dac3b
 
-PODFILE CHECKSUM: 26077a464adb74ab257f951591fdd074b870c1e4
+PODFILE CHECKSUM: 95b306112089af0a01543a420ca0f55ad4f0f1bc
 
 COCOAPODS: 1.8.3

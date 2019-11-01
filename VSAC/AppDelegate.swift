@@ -7,10 +7,11 @@
 //
 
 import UIKit
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
-import AppCenterPush
+//import AppCenter
+//import AppCenterAnalytics
+//import AppCenterCrashes
+//import AppCenterPush
+import HockeySDK
 import UserNotifications
 
 @UIApplicationMain
@@ -23,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Get details about last crash
 //         var crashReport = MSCrashes.lastSessionCrashReport()
-        MSCrashes.hasCrashedInLastSession()
+        //MSCrashes.hasCrashedInLastSession()
         // attach text file to report
 //        func attachments(with crashes: MSCrashes, for errorReport: MSErrorReport) -> [MSErrorAttachmentLog] {
 //            let attachment1 = MSErrorAttachmentLog.attachment(withText: "Hello World!!", filename: "hello.txt")
@@ -31,36 +32,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
         
         // App Center
-        MSAppCenter.setLogLevel(.verbose)
-        MSPush.setDelegate(self as? MSPushDelegate)
-        MSAppCenter.start("a13bed42-d505-4f08-acab-aefd176d0805", withServices:[
-            MSAnalytics.self,
-            MSCrashes.self,
-            MSPush.self
-            ])
+//        MSAppCenter.setLogLevel(.verbose)
+//        MSPush.setDelegate(self as? MSPushDelegate)
+//        MSAppCenter.start("a13bed42-d505-4f08-acab-aefd176d0805", withServices:[
+//            MSAnalytics.self,
+//            MSCrashes.self,
+//            MSPush.self
+//            ])
+        
+        BITHockeyManager.shared().logLevel = BITLogLevel.debug
+        
+        BITHockeyManager.shared().configure(withIdentifier: "9dbf54d8ba7f44fc930894bae62f8ec1")
+        BITHockeyManager.shared().crashManager.crashManagerStatus = BITCrashManagerStatus.autoSend
+        BITHockeyManager.shared().start()
+        BITHockeyManager.shared().authenticator.authenticateInstallation()
         
         return true
     }
     
-    func push(_ push: MSPush!, didReceive pushNotification: MSPushNotification!) {
-        let title: String = pushNotification.title ?? ""
-        var message: String = pushNotification.message ?? ""
-        var customData: String = ""
-        for item in pushNotification.customData {
-            customData =  ((customData.isEmpty) ? "" : "\(customData), ") + "\(item.key): \(item.value)"
-        }
-        if (UIApplication.shared.applicationState == .background) {
-            NSLog("Notification received in background, title: \"\(title)\", message: \"\(message)\", custom data: \"\(customData)\"");
-        } else {
-            message =  message + ((customData.isEmpty) ? "" : "\n\(customData)")
-            
-            let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "OK", style: .cancel))
-            
-            // Show the alert controller.
-            self.window?.rootViewController?.present(alertController, animated: true)
-        }
-    }
+//    func push(_ push: MSPush!, didReceive pushNotification: MSPushNotification!) {
+//        let title: String = pushNotification.title ?? ""
+//        var message: String = pushNotification.message ?? ""
+//        var customData: String = ""
+//        for item in pushNotification.customData {
+//            customData =  ((customData.isEmpty) ? "" : "\(customData), ") + "\(item.key): \(item.value)"
+//        }
+//        if (UIApplication.shared.applicationState == .background) {
+//            NSLog("Notification received in background, title: \"\(title)\", message: \"\(message)\", custom data: \"\(customData)\"");
+//        } else {
+//            message =  message + ((customData.isEmpty) ? "" : "\n\(customData)")
+//
+//            let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+//            alertController.addAction(UIAlertAction(title: "OK", style: .cancel))
+//
+//            // Show the alert controller.
+//            self.window?.rootViewController?.present(alertController, animated: true)
+//        }
+//    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
